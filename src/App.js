@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          cick this link :) 
+          click this link :) 
         </a>
       </header>
     </div>
