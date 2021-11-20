@@ -3,9 +3,14 @@ import './App.css';
 import Greet from './Components/Greet';
 import Message from './Components/Message';
 import Button from './Components/Button';
+import Hello from './Components/Hello';
+import Employee from './Components/Employee';
 
 //jsx - js xml
-function App() {
+//react not a framework!
+//angular. vue
+//function
+function App() {  
   return (
     <div className="App">
       <header className="App-header">
@@ -13,7 +18,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Greet name = "Peter" heroName = "Spiderman">
+        <Employee/>
+        {/* <p>{Hello()}</p> */}
+        <Greet name = {Hello()} heroName = "Spiderman">
+        {/* <Greet name = "Peter" heroName = "Spiderman"> */}
         <Message/>
         </Greet>
         <Greet name = "Tony" heroName = "Iron man">
