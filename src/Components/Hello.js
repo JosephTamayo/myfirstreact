@@ -8,7 +8,7 @@ import helloService from "../Services/HelloService"
 const Hello = () =>{
 
     //function hooks
-    const [hello, setHello] = useState("Walang API, Pasensya kana Godbless!")
+    const [hello, setHello] = useState("click me!")
 
     //hooks
     useEffect( () => {

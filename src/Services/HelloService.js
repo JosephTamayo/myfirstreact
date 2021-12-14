@@ -1,4 +1,4 @@
-import httpCommon from "../Commons/http-common";
+import httpCommon from "../commons/http-common";
 
 const getHello = () =>{
 
