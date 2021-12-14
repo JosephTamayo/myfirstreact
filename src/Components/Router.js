@@ -7,7 +7,7 @@ import AddEmployee from './AddEmployee';
 const Router = () =>{
     return(
         <div>
-
+            <BrowserRouter basename="/index.html>
             <Routes>
                 <Route path = "/" element = {<Home/>}/>
                 <Route exact path = "/myfirstreact/employees" element = {<Employee/>}/>
@@ -15,7 +15,7 @@ const Router = () =>{
                 <Route exact path = "/myfirstreact/employees/edit/:employeeId" element = {<AddEmployee/>}/>
                 <Route exact path = "*" element = {<PageNotFound/>}/>
             </Routes>
-            
+            </BrowserRouter>
         </div>
     )
 }
