@@ -1,4 +1,4 @@
-import httpCommon from "../commons/http-common";
+import httpCommon from "../Commons/http-common";
 
 const getEmployees = () =>{
 
