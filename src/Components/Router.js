@@ -7,7 +7,7 @@ import AddEmployee from './AddEmployee';
 const Router = () =>{
     return(
         <div>
-            <BrowserRouter basename="/index.html>
+            <BrowserRouter basename="/index.html">
             <Routes>
                 <Route exact path = "/myfirstreact" element = {<Home/>}/>
                 <Route exact path = "/myfirstreact/employees" element = {<Employee/>}/>
