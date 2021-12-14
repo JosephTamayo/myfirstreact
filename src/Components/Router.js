@@ -8,8 +8,7 @@ const Router = () =>{
     return(
         <div>
             <BrowserRouter>
-            <Routes>
-                <Router basename='/index.html'>
+            <Routes basename='/index.html'>
                 <Route path = "/" element = {<Home/>}/>
                 <Route exact path = "/myfirstreact/employees" element = {<Employee/>}/>
                 { <Route exact path = "/myfirstreact/add" element = {<AddEmployee/>}/> }
